@@ -1,0 +1,1185 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* line 11, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 8, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 11, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 14, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 18, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 24, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.main-section__content-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/* line 28, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 30, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+}
+
+/* line 36, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 40, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+  rotate: 50deg;
+}
+
+/* line 48, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 51, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 54, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin: 0;
+}
+
+/* line 57, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 59, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 62, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  border-radius: 100px;
+  background: #5290EA;
+  transform: rotate(-64deg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 73, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  z-index: 3;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+}
+
+/* line 84, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  z-index: 1;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+}
+
+/* line 96, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.right-wrapper {
+  position: absolute;
+  z-index: 5;
+  top: 150px;
+  right: 76px;
+  width: 372px;
+}
+
+/* line 102, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 105, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 107, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 111, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 114, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  margin-right: 17px;
+}
+
+/* line 123, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons__item:last-child {
+  margin: 0;
+}
+
+/* line 125, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 128, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 131, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.title__hr {
+  position: absolute;
+  width: 65px;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border-top: 2px solid black;
+}
+
+/* line 139, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 141, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.buttons__main-btn {
+  width: 200px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  margin-right: 32px;
+}
+
+/* line 151, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+  font-style: 16px;
+}
+
+/* line 155, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 158, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(143.92deg, #ED7B50 14.85%, #488AEA 53.25%, #2C2C2C 85.74%);
+  opacity: 0.5;
+}
+
+/* line 167, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 172, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 175, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.elipse__subtract_white {
+  background-color: #fff;
+}
+
+/* line 177, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.elipse_big {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 183, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+  overflow: hidden;
+}
+
+/* line 186, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section__container {
+  position: relative;
+  padding-top: 32px;
+}
+
+/* line 189, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 191, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section__guitar-box {
+  display: inline-flex;
+  margin-bottom: 25px;
+}
+
+/* line 194, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section__icon-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 197, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 202, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 209, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+/* line 218, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.cards-item:last-child {
+  margin: 0;
+}
+
+/* line 220, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.cards-item__img {
+  height: 335px;
+}
+
+/* line 222, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.cards-item__text {
+  position: absolute;
+  top: 144px;
+  right: -53px;
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+}
+
+/* line 230, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.cards-item_blue {
+  background-color: #5290EA;
+}
+
+/* line 232, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.cards-item_orange {
+  background-color: #F28B64;
+}
+
+/* line 235, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 238, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+/* line 242, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 244, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+}
+
+/* line 250, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section {
+  background-color: #F0F0F0;
+  min-height: 640px;
+  overflow: hidden;
+  padding-top: 47px;
+}
+
+/* line 255, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 260, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__left-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 88px;
+  width: 542px;
+  height: 319px;
+}
+
+/* line 267, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__title {
+  margin-bottom: 20px;
+}
+
+/* line 269, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  top: 124px;
+  left: 44px;
+}
+
+/* line 273, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__third-elipse {
+  position: absolute;
+  top: -129px;
+  right: -280px;
+  transform: rotate(-48.2deg);
+}
+
+/* line 278, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__subtract-elipse {
+  position: absolute;
+  top: 205px;
+  left: -23px;
+}
+
+/* line 282, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.third-section__subtitle {
+  width: 479px;
+  height: 308px;
+  margin-bottom: 30px;
+}
+
+/* line 287, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 296, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.footer-section {
+  min-height: 180px;
+}
+
+/* line 298, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.footer-section__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 302, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.footer-section__image {
+  margin-right: 60px;
+}
+
+/* line 304, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+.footer-section__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 310, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 312, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 314, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 123px;
+    right: 43px;
+  }
+  /* line 317, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 574px;
+  }
+  /* line 319, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper {
+    position: relative;
+  }
+  /* line 321, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 323, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 326, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 550px;
+    height: 200px;
+  }
+  /* line 329, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 332, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 334, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 337, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    top: 120px;
+  }
+  /* line 340, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 342, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 346, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__title {
+    font-size: 40px;
+  }
+  /* line 348, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__right-wrapper {
+    margin-right: 60px;
+  }
+  /* line 350, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .title__hr {
+    width: 40px;
+  }
+  /* line 353, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .footer-section__image {
+    display: flex;
+    justify-content: start;
+    margin-right: 5px;
+  }
+  /* line 357, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .footer-section__image img {
+    width: 600px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 363, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 365, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .main-section {
+    min-height: 535px;
+  }
+  /* line 367, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 60px;
+    right: 67px;
+  }
+  /* line 370, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 431px;
+  }
+  /* line 374, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper img {
+    width: 560px;
+  }
+  /* line 376, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 350px;
+    height: 150px;
+  }
+  /* line 379, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 400px;
+    height: 150px;
+  }
+  /* line 382, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 350px;
+    height: 150px;
+  }
+  /* line 385, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 262px;
+  }
+  /* line 388, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .cards-item__img {
+    height: 232px;
+  }
+  /* line 390, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .cards-item__text {
+    top: 97px;
+    right: -87px;
+  }
+  /* line 393, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .right-wrapper {
+    top: 85px;
+    right: -18px;
+  }
+  /* line 398, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .icons-item__img {
+    width: 61px;
+    height: 66px;
+  }
+  /* line 401, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 10px;
+  }
+  /* line 403, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .second-section {
+    min-height: 521px;
+  }
+  /* line 407, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__container {
+    display: inline-block;
+  }
+  /* line 409, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__left-wrapper {
+    justify-content: start;
+    align-items: start;
+    margin-right: 0;
+    height: 88px;
+  }
+  /* line 414, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__second-elipse {
+    left: 543px;
+    top: -82px;
+  }
+  /* line 417, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__subtract-elipse {
+    top: 491px;
+    left: 482px;
+  }
+  /* line 420, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .third-section__third-elipse {
+    right: 572px;
+    transform: rotate(80deg);
+  }
+  /* line 424, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .footer-section__image {
+    margin-right: 10px;
+  }
+  /* line 426, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .footer-section__image img {
+    width: 406px;
+    height: 186px;
+  }
+  /* line 429, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .footer-section__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 434, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 436, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: rgba(82, 144, 234, 0.9);
+    z-index: 20;
+    transition: 1s all;
+  }
+  /* line 445, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .nav-menu__list {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /* line 450, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* line 454, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    height: 14px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    z-index: 30;
+  }
+  /* line 461, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: #000;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 468, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 471, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 473, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 475, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 477, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 479, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 484, C:/Users/kampa/Desktop/ALL POJECT FOR PORFOLIO/Guitar Portfolio SASS/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
